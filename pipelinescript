@@ -14,7 +14,7 @@ pipeline {
         }
         stage('init') {
             steps {
-                sh 'terraform init -upgarde'
+                sh 'terraform init - upgarde'
             }
         }
         stage('validate') {
